@@ -65,4 +65,6 @@ textarea{
 }
 ol{
     list-style-type:upper-latin;
+    border: 1px solid black;
+    font-weight: bold;
 }
