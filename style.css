@@ -46,8 +46,8 @@ td{
     border: black solid 2px;
 }
 img{
-    width: 1280px;
-    height: 720px;
+    width: 335px;
+    height: 300px;
     border: 5px solid gold;
     padding: 2px;
     margin: 1cm;
@@ -65,4 +65,6 @@ textarea{
 }
 ol{
     list-style-type:upper-latin;
+    border: 1px solid black;
+    font-weight: bold;
 }
