@@ -1,0 +1,22 @@
+[
+    {
+        "category": "Hardware",
+        "description": "Physical components of a computer",
+        "examples": ["CPU", "GPU", "Motherboard"]
+    },
+    {
+        "category": "Software",
+        "description": "Programs that perform tasks",
+        "examples": ["Operating System", "Applications", "Utilities"]
+    },
+    {
+        "category": "Networking",
+        "description": "Connecting devices for communication",
+        "examples": ["Router", "Switch", "Wi-Fi"]
+    },
+    {
+        "category": "Databases",
+        "description": "Systems for storing data",
+        "examples": ["SQL", "NoSQL", "Cloud Storage"]
+    }
+]
