@@ -9,16 +9,32 @@ p
 a:hover{
     color: red;
 }
-
 .column {
-    float: left;
     flex: 1;
     min-width: 280px;
-    max-width: 33%;
+    max-width: 300px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 8px;
     background-color: #f9f9f9;
+}
+
+.column h2 {
+    text-align: center;
+    color: black;
+}
+
+.column p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 th{
@@ -35,13 +51,6 @@ img{
     border: 5px solid gold;
     padding: 2px;
     margin: 1cm;
-}
-@media (max-width: 768px) {
-    .container {
-        clear: both;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 
