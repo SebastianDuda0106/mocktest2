@@ -68,6 +68,9 @@ img{
 input[type="submit"]{
     background-color: green;
 }
+input[type="text"]{
+    background-color: blue;
+}
 button{
     background-color: green;
 }
