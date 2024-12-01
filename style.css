@@ -9,6 +9,9 @@ p
 a:hover{
     color: red;
 }
+.topnav {
+    text-align: right;
+}
 .column {
     flex: 1;
     min-width: 280px;
