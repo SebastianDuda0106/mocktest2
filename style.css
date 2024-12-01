@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
+a:hover{
+    color: red;
+}
+
+.column {
+    float: left;
+    flex: 1;
+    min-width: 280px;
+    max-width: 33%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+th{
+    clear: both;
+    color: white;
+    background-color: black;
+}
+td{
+    border: black solid 2px;
+}
+img{
+    width: 1280px;
+    height: 720px;
+    border: 5px solid gold;
+    padding: 2px;
+    margin: 1cm;
+}
+@media (max-width: 768px) {
+    .container {
+        clear: both;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+input[type="submit"]{
+    background-color: green;
+}
+button{
+    background-color: green;
+}
+textarea{
+    background-color: blue;
+}
+ol{
+    list-style-type:upper-latin;
+}
