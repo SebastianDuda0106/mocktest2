@@ -1,0 +1,22 @@
+<informationTechnology>
+    <hardware type="physical">
+        <component>CPU</component>
+        <component>GPU</component>
+        <component>Motherboard</component>
+    </hardware>
+    <software type="programs">
+        <component>Operating System</component>
+        <component>Applications</component>
+        <component>Utilities</component>
+    </software>
+    <networking type="connectivity">
+        <component>Router</component>
+        <component>Switch</component>
+        <component>Wi-Fi</component>
+    </networking>
+    <databases type="storage">
+        <component>SQL</component>
+        <component>NoSQL</component>
+        <component>Cloud Storage</component>
+    </databases>
+</informationTechnology>
